@@ -1,0 +1,198 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+h1{ font-size: 2.8em;}
+h2{ font-size: 2.2em;}
+h3{ font-size: 1.8em;}
+p{ font-size: 1.8;}
+header{
+    background-color: rgb(255,255,255);
+}
+.color-e{ color: green;}
+.color{ color: green;}
+.colos{ color: rgb(190, 9, 9);}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: green;
+}
+#Infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("RAMBUTAN.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#Infos .informacion-e{
+    color: white;
+}
+
+#Infos .sig-e{
+    font-size: 1.5em;
+    color: white;
+}
+#Cuidados22{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados23{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados24{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#Plantar5{
+    background-color: rgba(30,30,30);
+    color: white;
+    text-align: center;
+}
+#Plantar5 .container1{
+    padding: 120px 0px;
+}
+#Plantar5 h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Plantar5 .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("SUELO.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("PLANTAZIACION.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("FERTILIZANTE.jpg");
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("ESPACIADO.jpg");
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("CUIDADO.jpg");
+}
+@media(min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Cuidados22 .tipos22{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados22 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados22 h2{
+        margin-top: 0;
+    }
+    #Cuidados22 .imagen22{
+        background-image:url("CLIMA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    #Cuidados23 .tipos23{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados23 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados23 .imagen23{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("CIEMBRA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    
+    #Cuidados24 .tipos24{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados24 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados24 .imagen24{
+        background-image: url("RIEGO.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+}

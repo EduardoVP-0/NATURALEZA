@@ -1,0 +1,250 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+h1{ font-size: 2.8em;}
+h2{ font-size: 2.2em;}
+h3{ font-size: 1.8em;}
+p{ font-size: 2em;}
+header{
+    background-color: rgb(255,255,255);
+}
+.color-f{ color: green;}
+.color{ color: green;}
+.colos{ color: yellow;}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: green;
+}
+#Infoc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("NANCHES.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#Infoc .informacion-f{
+    color: white;
+}
+
+#Infoc .sig-f{
+    font-size: 1.5em;
+    color: white;
+}
+#Cuidados25{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados26{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados27{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados28{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados29{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+
+#Plantar6{
+    background-color: rgba(30,30,30);
+    color: white;
+    text-align: center;
+}
+#Plantar6 .container1{
+    padding: 120px 0px;
+}
+#Plantar6 h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#Plantar6 .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("SEMILLA.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("PREPARADO.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("RIEGO.jpg");
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("ESPACIADO.jpg");
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("CUIDADO.jpg");
+}
+@media(min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Cuidados25 .tipos25{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados25 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados25 h2{
+        margin-top: 0;
+    }
+    #Cuidados25 .imagen25{
+        background-image:url("SUELO.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    #Cuidados26 .tipos26{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados26 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados26 .imagen26{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("SIEMBRA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    
+    #Cuidados27 .tipos27{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados27 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados27 .imagen27{
+        background-image: url("COSECHA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+
+
+    #Cuidados28 .tipos28{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados28 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados28 .imagen28{
+        background-image: url("AGUA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    #Cuidados29 .tipos29{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados29 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados29 .imagen29{
+        background-image: url("PODA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+
+}

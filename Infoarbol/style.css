@@ -1,0 +1,193 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+h1{ font-size: 2.8em;}
+h2{ font-size: 2.2em;}
+h3{ font-size: 1.8em;}
+p{ font-size: 1.8;}
+
+button{
+    font-size:  1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    background-color: green;
+}
+
+button:hover{
+    background-color: rgba(0, 128, 0, 0.507);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(255,255,255);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: green;
+}
+
+#Chiapas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Huerto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#Chiapas .informacion-a{
+    color: white;
+}
+
+#Chiapas .sig-a{
+    
+    color: white;
+}
+
+
+.color{ color: green;}
+#Tipos .tipos{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Arboles{
+    background-color: rgba(30,30,30);
+    color: white;
+    text-align: center;
+}
+#Arboles .container{
+    padding: 120px 0px;
+}
+#Arboles h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#Arboles p{
+    display: none;
+}
+
+#Arboles .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("LIMON.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("MANGO.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("Chicozapote.jpg");
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("CACAO.jpg");
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("Rambutan.jpg");
+}
+.carta:nth-child(6){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("NANCHE.jpg");
+}
+
+@media(min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Tipos .tipos{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Tipos .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Tipos h2{
+        margin-top: 0;
+    }
+    #Tipos .imagen{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("MAIZ.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+
+    #Arboles .programas{
+        display: flex;
+        justify-content: center;
+    }
+    #Arboles h3{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    #Arboles .carta{
+        padding: 50px;
+    }
+    footer .container{
+        justify-content: flex-end;
+    }
+}

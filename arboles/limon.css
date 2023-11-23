@@ -1,0 +1,270 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+
+h1{ font-size: 2.8em;}
+h2{ font-size: 2.2em;}
+h3{ font-size: 1.8em;}
+p{ font-size: 1.8;}
+header{
+    background-color: rgb(255,255,255);
+}
+.color-a{ color: green;}
+.color{ color: green;}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: green;
+}
+#Infor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("LIMONPERSA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#Infor .informacion-b{
+    color: white;
+}
+
+#Infor .sig-b{
+    font-size: 1.5em;
+    color: white;
+}
+#Cuidados1{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados2{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados3{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados4{
+    text-align: center;
+    padding: 100px 12px;
+}
+#Cuidados5{
+    text-align: center;
+    padding: 100px 12px;
+}
+
+#Plantar{
+    background-color: rgba(30,30,30);
+    color: white;
+    text-align: center;
+}
+#Plantar .container1{
+    padding: 120px 0px;
+}
+#Plantar h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#Plantar p{
+    display: none;
+}
+#Plantar .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("SUELO.jpg");
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("CERCADO.jpg");
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("TRAZADO.jpg");
+}
+.carta:nth-child(4){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("AHOYADO.jpg");
+}
+.carta:nth-child(5){
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("FERTILIZANTE.jpg");
+}
+@media(min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Cuidados1 .tipos1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados1 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados1 h2{
+        margin-top: 0;
+    }
+    #Cuidados1 .imagen1{
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("CLIMA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    #Cuidados2 .tipos2{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados2 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados2 .imagen2{
+        background-image: url("SUELO1.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    
+    #Cuidados3 .tipos3{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados3 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados3 .imagen3{
+        background-image: url("Siembra.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+
+
+    #Cuidados4 .tipos4{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados4 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados4 .imagen4{
+        background-image: url("RIEGO.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    #Cuidados5 .tipos5{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados5 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados5 .imagen5{
+        background-image: url("PODA.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+    #Cuidados6 .tipos6{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #Cuidados6 .text{
+        width: 50%;
+        max-width: 600px;
+        padding-left: 30px;
+        text-align: initial;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #Cuidados6 .imagen6{
+        background-image: url("FERTILIZANTE1.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 400px;
+    }
+
+}
