@@ -26,11 +26,11 @@ button{
     border: 1px solid rgba(0,0,0,0.5);
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
-    background-color: blueviolet;
+    background-color: green;
 }
 
 button:hover{
-    background-color: rgb(101, 33, 165);
+    background-color: rgb(9, 92, 9);
 }
 
 .container{
@@ -39,7 +39,7 @@ button:hover{
 }
 
 .color-acento{ color: rgb(22, 119, 22);}
-
+.planeta{color: rgb(22,119,22);}
 header{
     background-color: rgb(245,245,245);
 }
@@ -48,7 +48,7 @@ header .logo{
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
+    color: green;
     font-size: 1.6em;
 }
 
@@ -73,7 +73,7 @@ header a{
 }
 
 header a:hover{
-    color: blueviolet;
+    color: green;
 }
 
 #Info{
@@ -85,7 +85,7 @@ header a:hover{
     height: 90vh;
     background-image: linear-gradient(
         0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,
-        url("BOSQUE.jpg");
+        url("/Img/Ecosistema.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -125,12 +125,12 @@ header a:hover{
     border-radius: 15px;
 }
 .carta:first-child{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("INEGI.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("/Img/Pronotura.jpg");
     
 }
 
 .carta:nth-child(2){
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("ARBOL.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("/Img/Owl.jpg");
     
 }
 
@@ -153,10 +153,11 @@ header a:hover{
     background-color: rgb(30,30,30);
     color: white;
     height: 20wh;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("PLANTAR.jpg");
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("/Img/Cuidado.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding: 100px;
 }
 
 #Buenainfo h2{
@@ -226,11 +227,11 @@ footer .container{
     }
 
     #Arboles .img-container{
-        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("Frutal.jpg");
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("Img/Chiapas.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
-        width: 500px;
+        width: 700px;
     }
 
     #fuentes .programas{
@@ -250,10 +251,11 @@ footer .container{
     }
 
     #carateristicas{
-        background-image: url("CUIDAR.jpg");
+        background-image: url("Img/EQUIOP.jpg");
         background-repeat: no-repeat;
         background-size: 400px;
-        background-position: calc(100vw - 500px) 30px;
+        background-position: calc(100vw - 500px) 130px;
+        
     }
 
     #carateristicas .container{
@@ -263,7 +265,7 @@ footer .container{
     #carateristicas ul{
         margin-left: 100px;
     }
-
+   
     #Buenainfo h2{
         font-size: 4em;
     }
@@ -276,6 +278,18 @@ footer .container{
 }
 @media (min-width: 1200px){
     #caracteristicas{
-        background-position-x: calc(100vw - 800px);
+        background-position-x: calc(800vw - 800px);
     }
+}
+
+
+.espaciado{
+    line-height: 1.5;
+}
+.organizacion{
+    text-align: center !important;
+    margin-bottom: 100px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
 }

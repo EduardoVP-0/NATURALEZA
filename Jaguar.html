@@ -1,0 +1,240 @@
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticl" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="static"><b>Panthera onca</b></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del Modal -->
+                <p>
+                    🌱 <b>Habitat:</b>
+                    Se distribuye en América Latina a lo largo de 18 países,
+                    desde México hasta Argentina, abarcando bosques tropicales,
+                    sabanas, bosques templados, humedales, bosques secos y áreas
+                    desérticas y semidesérticas.
+                </p>
+
+                <p>
+                    <b>Regiones en donde se encuenta:</b>
+                    Una de las poblaciones de jaguar más importante en México se encuentra en la Selva Lacandona.
+                </p>
+                <!-- Div con 3 columnas sobre Caracteristicas -->
+
+                <center>
+                    <h4><b>Caracteristicas Físicas</b></h4>
+                </center>
+
+                <br>
+
+                <!-- Carcateristicas Fisicas -->
+                <div class="fila">
+                    <div class="columna">
+                        <div class="img-container">
+                            <img src="/Img/C1-Jagura.jpg" alt="">
+                        </div>
+                        <p>La cabeza y cuerpo son robustos, tiene la mandíbula prominente y las extremidades son sólidas y cortas. Es un trepador y nadador excelente.</p>
+                    </div>
+                    <div class="columna">
+                        <div class="img-container">
+                            <img src="/Img/C2-Jaguar.jpg" alt="">
+                        </div>
+                        <p>El color de su piel varía de amarillo pálido a café rojizo y cambia a blanco en el pecho y en la parte interna de las extremidades.</p>
+                    </div>
+                    <div class="columna">
+                        <div class="img-container">
+                            <img src="/Img/C3-Jaguar.jpg" alt="">
+                        </div>
+                        <p>Miden entre 1.12 y 1.85 m y el peso va de los 45 a los 160 kg, las hembras son un 20% más pequeñas que los machos.</p>
+                    </div>
+                </div>
+                
+
+                <br>
+
+                <!-- Alimentación -->
+                <center>
+                    <h4><b>Alimentación</b></h4>
+                </center>
+
+                <br>
+
+                <div class="fila">
+                    <div class="columna">
+                        <div class="img-container">
+                            <img src="/Img/A3-Jaguar.jpg" alt="">
+                        </div>
+                        <p>
+                            Aves terrestres y acuáticas como garzas, patos y camungos.
+                        </p>
+                    </div>
+                    <div class="columna">
+                        <div class="img-container">
+                            <img src="/Img/A2-Jaguar.jpg" alt="">
+                        </div>
+                        <p>
+                            Cazan cupisos, peces, tortugas e incluso caimanes.
+                        </p>
+                    </div>
+                    <div class="columna">
+                        <div class="img-container">
+                            <img src="/Img/A1-Jaguar.jpg" alt="">
+                        </div>
+                        <p>
+                            Venados, pecaríes, tapires, iguanas, capibaras, armadillos y monos.
+                        </p>
+                    </div>
+                </div>
+                
+
+                <br>
+
+                <!-- Amenazas -->
+                <center>
+                    <h4><span class="rojo"><b>Amenazas</b></span></h4>
+                </center>
+
+                <br>
+                <div class="fila2">
+                    <div class="columna2">
+                        <img src="/Img/Am1-Jaguar.jpg" alt="">
+                        <br><br>
+                        <p>
+                            Los jaguares son cazados tanto por sus pieles como por el conflicto con los humanos, 
+                            especialmente en áreas donde se perciben como una amenaza para el ganado.
+                        </p>
+                    </div>
+                    <div class="columna2">
+                        <img src="/Img/Am2-Jaguar.jpg" alt="">
+                        <br><br>
+                        <p>
+                            La deforestación y la expansión de la agricultura y la ganadería están reduciendo las áreas 
+                            donde el jaguar puede vivir. Esto no solo les quita su hogar, sino que también limita su 
+                            acceso a presas naturales.
+                        </p>
+                    </div>
+                </div>
+
+                <br>
+                <!-- Medidas de Conservación -->
+                <center>
+                    <h4>Medidas de <span class="Verde"><b>Conservación</b></span></h4>
+                </center>
+                <br>
+
+                <div class="fila">
+                    <div class="columna">
+                        <p>
+                            Establecer y ampliar áreas protegidas, como parques nacionales o reservas, 
+                            para conservar los ecosistemas naturales del jaguar.
+                        </p>
+                    </div>
+                    <div class="columna">
+                        <p>
+                            Implementar programas de monitoreo y seguimiento de la población de jaguares para 
+                            entender mejor su comportamiento.
+                        </p>
+                    </div>
+                    <div class="columna">
+                        <p>
+                            Promover la educación ambiental y la conciencia pública sobre la importancia del 
+                            jaguar en el ecosistema y evitar la caza.
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    /* CONTENIDO */
+    .fila {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        /* Centra el conjunto de columnas */
+        flex-wrap: wrap;
+        /* Para que no se desborde en pantallas pequeñas */
+    }
+
+    .columna {
+        width: 200px;
+        /* ✅ Ancho fijo para cada columna */
+    }
+
+    .img-container {
+        height: 150px; /* Ajusta según tus imágenes */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-container img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+
+    /* Amenazas (Tienes solo 2 imganes) */
+    .fila2 {
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        width: max-content;
+        margin: 0 auto;
+        justify-content: center;
+        /* Centra el conjunto de columnas */
+        flex-wrap: wrap;
+    }
+
+    .columna2 {
+        width: 280px;
+        /* ✅ Ancho fijo para cada columna */
+    }
+
+    .columna2 img {
+        max-width: 100%;
+        height: 200px;
+        border-radius: 8px;
+        /* Opcional: esquinas suaves para imagen */
+    }
+
+    .rojo{
+        color: red;
+    }
+
+    .Verde{
+        color: green;
+    }
+
+    #staticBackdrop .modal-dialog {
+        position: fixed;
+        width: 600px;
+        max-width: 90%;
+        margin-left: 290px;
+        margin-top: 90px;
+    }
+
+    #staticBackdrop .modal-body {
+        overflow-y: scroll;
+        /* Permite desplazamiento vertical */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    #staticBackdrop .modal-body::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari y Edge */
+    }
+
+    #staticBackdrop .modal-content {
+        width: 800px;
+        height: 400px;
+    }
+</style>
