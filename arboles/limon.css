@@ -64,7 +64,7 @@ header a:hover{
 }
 
 #Infor .sig-b{
-    font-size: 1.5em;
+    
     color: white;
 }
 #Cuidados1{
@@ -100,9 +100,7 @@ header a:hover{
     margin-top: 0;
     font-size: 3.2em;
 }
-#Plantar p{
-    display: none;
-}
+
 #Plantar .carta{
     background-position: center center;
     background-size: cover;

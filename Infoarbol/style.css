@@ -175,11 +175,6 @@ header a:hover{
         height: 400px;
         width: 400px;
     }
-
-    #Arboles .programas{
-        display: flex;
-        justify-content: center;
-    }
     #Arboles h3{
         margin-top: 0;
         margin-bottom: 30px;
